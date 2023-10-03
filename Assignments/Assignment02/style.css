@@ -1,0 +1,44 @@
+body {
+    background-color: #E4D9FF;
+    color: #0b153a;
+}
+
+/* 3. Change the text color for the paragraph element to #EB7F00*/
+p {
+    color: #384885;
+}
+
+
+/*------ PART 2 -------------------------*/
+/*1. Center the h3*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*2. Change the font-size of the paragraph element to 40px and the font-weight to bold*/
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*3. Change the text color for the paragraph element to #EB7F00*/
+
+
+/*4. Remove the default underline from the anchor tag below*/
+
+a {
+    text-decoration: none;
+    color: #FAFAFF;
+}
