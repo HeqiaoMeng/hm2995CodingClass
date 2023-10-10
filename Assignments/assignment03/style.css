@@ -1,6 +1,10 @@
 body {
     background-color: #E4D9FF;
     color: #0b153a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /* 3. Change the text color for the paragraph element to #EB7F00*/
