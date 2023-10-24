@@ -11,6 +11,33 @@ body {
     background-color: #a494cc;
     text-decoration: none;
 }
+.container{
+    display:flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    /* Define the height of the navigation bar in pixels */
+    height: 60px;
+    /* background: green; */
+}
+
+ul.flex-container {
+  /* This is the parent element where you will set display:flex  */
+  display: flex;
+  justify-content:space-around;
+
+  list-style: none;
+  background: #a494cc;
+  line-height: 60px; /* vertically center text */
+}
+
+a {
+    /* These are the children elements */
+    color: #f2f2f2;
+    text-decoration: none;
+}
 /* 3. Change the text color for the paragraph element to #EB7F00*/
 p {
     color: #384885;
