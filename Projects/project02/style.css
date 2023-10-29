@@ -1,0 +1,114 @@
+body {
+    background-color: #E4D9FF;
+    color: #0b153a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nav {
+    color: #FAFAFF;
+    background-color: #a494cc;
+    text-decoration: none;
+}
+.container{
+    display:flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    /* Define the height of the navigation bar in pixels */
+    height: 60px;
+    /* background: green; */
+}
+
+ul.flex-container {
+  /* This is the parent element where you will set display:flex  */
+  display: flex;
+  justify-content:space-around;
+
+  list-style: none;
+  background: #a494cc;
+  line-height: 60px; /* vertically center text */
+}
+
+a {
+    /* These are the children elements */
+    color: #f2f2f2;
+    text-decoration: none;
+}
+/* 3. Change the text color for the paragraph element to #EB7F00*/
+p {
+    color: #384885;
+}
+
+
+
+/*------ PART 2 -------------------------*/
+/*1. Center the h3*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+h5 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*2. Change the font-size of the paragraph element to 40px and the font-weight to bold*/
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*3. Change the text color for the paragraph element to #EB7F00*/
+
+
+/*4. Remove the default underline from the anchor tag below*/
+
+a {
+    text-decoration: none;
+    color: #FAFAFF;
+}
+
+figure {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #0b153a;
+}
+
+footer {
+    /* 1. Move the footer to the bottom of the viewport using the fixed property */
+    position: fixed;
+    /* 2. Set the footer to the bottom of the viewport */
+    bottom: 0;
+    /* 3. Make sure the footer has a width that is as wide as the viewport */
+    width: 100%;
+    background: #0b153a;
+}
+
+footer a {
+    /* 4. Change the default color for the text from blue to #FFFFFF */
+    color: #F2F2F2;
+    /* 5. Remove the default underline using the text-decoration property */
+    text-decoration:underline;
+}
