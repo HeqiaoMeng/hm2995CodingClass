@@ -1,6 +1,7 @@
 body {
     background-color: #f5f5f5;
     color: #000000;
+    margin: 0%;
 }
 .nav {
     color: #242424;
@@ -95,19 +96,19 @@ figcaption {
 
 footer {
     /* 1. Move the footer to the bottom of the viewport using the fixed property */
-    position: fixed;
+    position:bottom;
     /* 2. Set the footer to the bottom of the viewport */
     bottom: 0;
     /* 3. Make sure the footer has a width that is as wide as the viewport */
     width: 100%;
-    background: #0b153a;
+    background: #ffffff;
 }
 
 footer a {
     /* 4. Change the default color for the text from blue to #FFFFFF */
-    color: #F2F2F2;
+    color: #003b67;
     /* 5. Remove the default underline using the text-decoration property */
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 
