@@ -1,0 +1,206 @@
+body {
+    background-color: #f5f5f5;
+    color: #000000;
+    margin: 0%;
+}
+.nav {
+    color: #242424;
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+.container{
+    display:flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    /* Define the height of the navigation bar in pixels */
+    height: 30px;
+    width: 5000px;
+}
+
+ul.flex-container {
+  /* This is the parent element where you will set display:flex  */
+  display:inline-flex;
+  justify-content:first baseline;
+
+  list-style: none;
+  background: #f5f5f5;
+  line-height: 10px; /* vertically center text */
+ 
+}
+
+a {
+    /* These are the children elements */
+    color: #f2f2f2;
+    text-decoration: none;
+}
+/* 3. Change the text color for the paragraph element to #EB7F00*/
+p {
+    color: #000000;
+}
+
+
+/*------ PART 2 -------------------------*/
+/*1. Center the h3*/
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight:700;
+}
+h4 {
+    text-align:start;
+    font-size: 20px;
+    font-weight:500;
+}
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*2. Change the font-size of the paragraph element to 40px and the font-weight to bold*/
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*3. Change the text color for the paragraph element to #EB7F00*/
+
+
+/*4. Remove the default underline from the anchor tag below*/
+
+a {
+    text-decoration: none;
+    color: #FAFAFF;
+}
+
+figure {
+    width: 80%;
+    margin:auto;
+    position:relative;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+
+footer {
+    /* 1. Move the footer to the bottom of the viewport using the fixed property */
+    position:bottom;
+    /* 2. Set the footer to the bottom of the viewport */
+    bottom: 0;
+    /* 3. Make sure the footer has a width that is as wide as the viewport */
+    width: 100%;
+    background: #ffffff;
+}
+
+footer a {
+    /* 4. Change the default color for the text from blue to #FFFFFF */
+    color: #003b67;
+    /* 5. Remove the default underline using the text-decoration property */
+    text-decoration:none;
+}
+
+
+
+.halloween-theme {
+    font-family: 'Nosifer';
+    font-size: 3em;
+}
+
+
+/* 1. Set up the outer container with flexbox -- header footer and main section */
+.flex-outer-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+h3 {
+    font-size: 2em;
+    padding-bottom: .68em;
+    letter-spacing: .03em;
+}
+
+/* Set up the main element -- the area where the content goes -- with the grid property */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* establishes 3 columns */
+    grid-template-rows: 1fr 1fr; /* establishes 2 rows */
+    grid-gap: 25px;
+}
+
+/* Set up each section -- each halloween character -- with the flex property */
+.flex-layout {
+    display: flex;
+    /* border: 2px solid green; */
+}
+
+.image-container, 
+.content-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container p {
+    line-height: 1.68em;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+figure {
+    margin: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
