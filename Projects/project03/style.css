@@ -197,7 +197,17 @@ img {
 
 
 
+li:hover {
+    background: blue;
+  }
 
+ul .card.hide {
+    display: none;
+}
+
+ul .card.show {
+    display: grid;
+}
 
 
 

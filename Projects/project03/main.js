@@ -38,13 +38,16 @@ const music = [
 
 // [1] grab the unordered list
 const ul = document.querySelector('ul')
+const filterBtns = document.querySelector('.fliters')
+const cards = document.getElementsByClassName('.card');
+
 // [2] write a function that renders each object to the page
 const renderMusicToPage = (items) => {
     console.log(items)
     for(let i = 0; i < items.length; i++){
         // create list item element
         let listItem = document.createElement('li');
-        listItem.classList.add(music[i].type,`item--${i+1}`)
+        listItem.classList.add("card", music[i].type,`item--${i+1}`)
         // add music name
         let name = document.createElement('h3');
         name.textContent = items[i].name;
@@ -59,7 +62,7 @@ const renderMusicToPage = (items) => {
         image.setAttribute('src', music[i].image)
 
 
-
+        // append to page
         ul.appendChild(listItem)
         listItem.appendChild(name)
         listItem.appendChild(type)
@@ -70,3 +73,34 @@ const renderMusicToPage = (items) => {
 
 // [3] invoke function and pass in object
 renderMusicToPage(music)
+
+
+// filter music by type function
+const filterFn = (event) => {
+    // console.log(event)
+    console.log(event.target)
+
+    if(event.target.classList.contains('filter-btn')){
+        let active = filterBtns.querySelector('.active');
+        active.classList.remove('active');
+
+        event.target.classList.add('active');
+
+        const filterValue = event.target.getAttribute("data-filter")
+        console.log(filterValue)
+
+        for(let i = 0; i < cards.length; i++){
+            if(cards[i].classList.contains(filterValue || filterValue == "all" )){
+                cards[i].classList.remove('hide');
+                cards[i].classList.add('show');
+            } else {
+                cards[i].classList.remove('show');
+                cards[i].classList.add('hide');
+            }
+        }
+    }
+
+
+}
+
+filterBtns.addEventListener('click', filterFn)
