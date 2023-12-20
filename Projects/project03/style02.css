@@ -10,8 +10,8 @@ height: 100%;
 }
 
 body {
-font-family: Helvetica, sans-serif;
-font-size: 1.2em;
+
+font-size: 1em;
 color: #141414;
 }
 
@@ -331,6 +331,90 @@ grid-row-end: 2;
   grid-row-start: 5;
   grid-row-end: 6;
 }
+
+
+.item--31 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--32 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--33 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--34 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--35 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 5;
+  grid-column-end: 6;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--36 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 6;
+  grid-column-end: 7;
+
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.item--37 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.item--38 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+.item--39 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+
+
 
 img {
 width: 100%;

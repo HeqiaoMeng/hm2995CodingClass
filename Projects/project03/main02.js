@@ -151,6 +151,51 @@ const flowers = [
         name: "扬州慢 Dehai Liu",
         type: "modern",
         image: "https://docs.google.com/uc?export=download&id=17ZnZoPDausX0xt7VpfulBZFcuLLhmprX"
+    },
+    {
+        name: "歌舞行 Guilian Liu",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1dHTZuDBSBciAyza2NjdyU-if1qMvBlcI"
+    },
+    {
+        name: "红昭愿 Qingyao Liu",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1Swcxs2wxHuCvUSyjqtgKq2hydQrvii9d"
+    },
+    {
+        name: "牵丝戏 Qingyao Liu",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1vt0gsDmypBkrlqt6ldfG6EENFdNi8aQ_"
+    },
+    {
+        name: "荣耀 Qingyao Liu",
+        type: "military",
+        image: "https://docs.google.com/uc?export=download&id=1Xyu97RXf9Lj6xpNc1XmltpfhNbjzOOZk"
+    },
+    {
+        name: "霜雪千年 Qingyao Liu",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1qNDxHyypf2_9NyA19Z2H5NGaDsB4RolN"
+    },
+    {
+        name: "高山流水 Peiyuan Lv",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1PBxry43X4QIQZqpt96kQ2K3dcf_SbKAJ"
+    },
+    {
+        name: "永远难忘 Xiuling Lv",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1qOGZm2NXINZqOW43TwGAS6Ud0_j3yjMA"
+    },
+    {
+        name: "关山酒 Qinghuan Zhu",
+        type: "military",
+        image: "https://docs.google.com/uc?export=download&id=1BemvyfNehiLjr_vM0PJKZQuWO4SbicRa"
+    },
+    {
+        name: "喜相逢 Chengjie Rui",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1ybYVfSx4AjVpP4Te-jmdwjUusHp5MDeg"
     }
 ];
 
