@@ -83,7 +83,7 @@ const flowers = [
         image: "https://docs.google.com/uc?export=download&id=1sBSrXmR8W9TW6uZBWwfERB96EZIyDKtg"
     },
     {
-        name: "青莲乐府 Yuzhong Kuang",
+        name: "青莲乐府 Yu Kuang",
         type: "gentle",
         image: "https://docs.google.com/uc?export=download&id=1ndYWS-GvmmO61qm-S5ALrpA45EOd9aVN"
     },

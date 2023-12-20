@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
 }
 
 html,
@@ -22,6 +22,7 @@ h2 {
   color: #fd924b;
 }
 
+
 .container {
 height: 100vh;
 width: 100%;
@@ -37,14 +38,14 @@ ul {
 display: grid;
 grid-template-columns: repeat(6, 1fr);
 grid-template-rows: repeat(3, 1fr);
-grid-gap: 10px;
+grid-gap: 5px;
 }
 
 li {
 list-style-type: none;
-border: 2px solid #141414;
+border: 3px solid #fd924b;
 padding: 10px;
-margin: 10px;
+margin: 5px;
 }
 
 li:hover {
