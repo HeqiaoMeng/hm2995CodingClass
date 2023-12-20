@@ -4,7 +4,7 @@ const flowers = [
     {
         name: "琵琶语 Hai Lin",
         type: "gentle",
-        image:"https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/28416aa6-4979-472b-9594-3628e39c8b96"
+        image:"https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/d465b3ff-3ffe-46a6-a424-ea96ea793ae1"
     },
     {
         name: "青花瓷 Lin Ma",
