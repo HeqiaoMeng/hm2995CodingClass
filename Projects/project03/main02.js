@@ -4,8 +4,7 @@ const flowers = [
     {
         name: "琵琶语 Hai Lin",
         type: "gentle",
-        image:
-        "https://docs.google.com/uc?export=download&id=1vBY37bKdr8EhRQqVyiJWI23Z9g9h1-Av"
+        image:"https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/28416aa6-4979-472b-9594-3628e39c8b96"
     },
     {
         name: "青花瓷 Lin Ma",
@@ -15,8 +14,7 @@ const flowers = [
     {
         name: "象王行 Qingyao Liu",
         type: "military",
-        image:
-        "https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/2513d2db-7f9a-41ca-9fed-80f99a3b7709"
+        image:"https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/2513d2db-7f9a-41ca-9fed-80f99a3b7709"
     },
     {
         name: "十面埋伏 Jinlong Fang",
