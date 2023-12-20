@@ -59,7 +59,7 @@ const flowers = [
     },
     {
         name: "琵琶怨 Weibiao Deng",
-        type: "modern",
+        type: "military",
         image: "https://docs.google.com/uc?export=download&id=1D5EXScdcwUXjqO1Zl9YoQKdqErG7MHDu"
     },
     {
