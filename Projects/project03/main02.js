@@ -61,6 +61,65 @@ const flowers = [
         name: "琵琶怨 Weibiao Deng",
         type: "modern",
         image: "https://docs.google.com/uc?export=download&id=1D5EXScdcwUXjqO1Zl9YoQKdqErG7MHDu"
+    },
+    {
+        name: "爱情买卖 Xiaoqi Cai",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1ajMcm_eU3cWvNjH3LHMZPVrjuKmuAmZ2"
+    },
+    {
+        name: "梦 Xiaolin Dong",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=19e05Ipg42hLqJUqSnlv8JCWNPqdKzAkh"
+    },
+    {
+        name: "小月儿高 Shufeng He",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1ecZFD6H9i1qr1fCOYT0DkVZYmrQcIiAf"
+    },
+    {
+        name: "绿腰 Ting Jiang",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1sBSrXmR8W9TW6uZBWwfERB96EZIyDKtg"
+    },
+    {
+        name: "青莲乐府 Yuzhong Kuang",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1ndYWS-GvmmO61qm-S5ALrpA45EOd9aVN"
+    },
+    {
+        name: "三六 Guangzu Li",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1XBq5m56YrdptE39EkeID97zKQbMjvRlR"
+    },{
+        name: "天池 Zhumei Li",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1NWqAdoAH7CLK75_FtjttCPBZ5CKHsSJa"
+    },
+    {
+        name: "霸王卸甲 Shicheng Lin",
+        type: "military",
+        image: "https://docs.google.com/uc?export=download&id=1r9B6ZZsR32hDlxIl2wmw86I9-bKrHhVL"
+    },
+    {
+        name: "陈杏元和番 Shicheng Lin",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1wCnEMofgZ_i2A-lniRklt6afk0lDdUfE"
+    },
+    {
+        name: "青莲乐府 Shicheng Lin",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1Tt2XbUjXNRrTrmlpJoN7ZdITcEBpQ3Yn"
+    },
+    {
+        name: "思春 古曲 Shicheng Lin",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1kkiYFgW2gVg_TQTpyh4xtwLyKIMVmVAt"
+    },
+    {
+        name: "傍妆台 Dehai Liu",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1LzXFO80BSd9GxLP2iCIxXgxXMDE1WgKE"
     }
 ];
 

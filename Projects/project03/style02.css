@@ -169,6 +169,114 @@ grid-row-end: 2;
   grid-row-end: 3;
 }
 
+.item--13 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--14 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--15 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--16 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--17 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 5;
+  grid-column-end: 6;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--18 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 6;
+  grid-column-end: 7;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item--19 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item--20 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item--21 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item--22 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item--23 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 5;
+  grid-column-end: 6;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item--24 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 6;
+  grid-column-end: 7;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
 img {
 width: 100%;
 height: 300px;
