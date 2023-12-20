@@ -91,7 +91,8 @@ const flowers = [
         name: "三六 Guangzu Li",
         type: "gentle",
         image: "https://docs.google.com/uc?export=download&id=1XBq5m56YrdptE39EkeID97zKQbMjvRlR"
-    },{
+    },
+    {
         name: "天池 Zhumei Li",
         type: "modern",
         image: "https://docs.google.com/uc?export=download&id=1NWqAdoAH7CLK75_FtjttCPBZ5CKHsSJa"
@@ -120,6 +121,36 @@ const flowers = [
         name: "傍妆台 Dehai Liu",
         type: "gentle",
         image: "https://docs.google.com/uc?export=download&id=1LzXFO80BSd9GxLP2iCIxXgxXMDE1WgKE"
+    },
+    {
+        name: "大浪淘沙 Dehai Liu",
+        type: "military",
+        image: "https://docs.google.com/uc?export=download&id=1RJ-NgyuYYXPUzU39y-nsRcJxugUCLeBY"
+    },
+    {
+        name: "梅花三弄 Dehai Liu",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1Ut2AsfUwDNzWpCXVTJ4q1Di0VDmlPHpQ"
+    },
+    {
+        name: "塞上曲 Dehai Liu",
+        type: "military",
+        image: "https://docs.google.com/uc?export=download&id=1e7Pl45HEkMMrbIAAns9wiCoIZESFujkc"
+    },
+    {
+        name: "疏影 Dehai Liu",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1cNmyA8PkWt_AW0KOJHpsK_e_t9yJ1xb2"
+    },
+    {
+        name: "杏花天影 Dehai Liu",
+        type: "gentle",
+        image: "https://docs.google.com/uc?export=download&id=1TgDur1ofB47uEHzobWOAKIL-Dgwx45Yr"
+    },
+    {
+        name: "扬州慢 Dehai Liu",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=17ZnZoPDausX0xt7VpfulBZFcuLLhmprX"
     }
 ];
 
