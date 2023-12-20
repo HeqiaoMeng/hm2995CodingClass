@@ -11,6 +11,7 @@ const music = [
         name: "青花瓷 Lin Ma",
         type: "Modern Melody",
         image: "https://github.com/HeqiaoMeng/hm2995CodingClass/assets/144858762/28416aa6-4979-472b-9594-3628e39c8b96"
+        
     },
     {
         name: "象王行 Qingyao Liu",
@@ -67,6 +68,7 @@ const renderMusicToPage = (items) => {
         listItem.appendChild(name)
         listItem.appendChild(type)
         listItem.appendChild(image)
+
     }
 
 }

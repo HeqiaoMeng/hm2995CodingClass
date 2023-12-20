@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #141414;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.list {
+  /* background-color: #f15b31; */
+  padding: 20px;
+  width: 100%;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+li {
+  list-style-type: none;
+  border: 2px solid #141414;
+  padding: 10px;
+  margin: 10px;
+}
+
+li:hover {
+  background: rgb(233, 156, 94);
+}
+
+.hide {
+  /* background-color: pink; */
+  display: none;
+}
+
+.show {
+  /* background-color: orange; */
+  display: grid;
+}
+
+.item--1 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item--2 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item--3 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item--4 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item--5 {
+    /* place code you want to apply to each individual item here */
+    grid-column-start: 2;
+    grid-column-end: 3;
+  
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+.item--6 {
+  /* place code you want to apply to each individual item here */
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item--7 {
+    /* place code you want to apply to each individual item here */
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .item--8 {
+    /* place code you want to apply to each individual item here */
+    grid-column-start: 2;
+    grid-column-end: 3;
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .item--9 {
+    /* place code you want to apply to each individual item here */
+    grid-column-start: 3;
+    grid-column-end: 4;
+  
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

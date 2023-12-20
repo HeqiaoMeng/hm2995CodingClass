@@ -19,8 +19,9 @@ body {
 }
 nav {
     /* Define the height of the navigation bar in pixels */
-    height: 30px;
+    height: 20px;
     width: 5000px;
+    justify-content: space-around;
 }
 
 ul.flex-container {
@@ -36,8 +37,8 @@ ul.flex-container {
 
 a {
     /* These are the children elements */
-    color: #f2f2f2;
-    text-decoration: none;
+    color: #fd924b;
+    text-decoration:underline;
 }
 /* 3. Change the text color for the paragraph element to #EB7F00*/
 p {
@@ -51,6 +52,11 @@ h1 {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight:700;
 }
 h3 {
     text-align: center;
@@ -79,10 +85,6 @@ p {
 
 /*4. Remove the default underline from the anchor tag below*/
 
-a {
-    text-decoration: none;
-    color: #FAFAFF;
-}
 
 figure {
     width: 60%;
