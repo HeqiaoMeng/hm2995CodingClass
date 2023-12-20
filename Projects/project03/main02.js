@@ -104,7 +104,7 @@ const flowers = [
     },
     {
         name: "陈杏元和番 Shicheng Lin",
-        type: "gentle",
+        type: "military",
         image: "https://docs.google.com/uc?export=download&id=1wCnEMofgZ_i2A-lniRklt6afk0lDdUfE"
     },
     {
