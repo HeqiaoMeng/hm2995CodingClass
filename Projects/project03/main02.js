@@ -46,6 +46,21 @@ const flowers = [
         name: "雪落下的声音 Ziyue Cai",
         type: "moderm",
         image: "https://docs.google.com/uc?export=download&id=1rX1Iu3sc84gyKuTQmy7L6UQwiuvHRjVf"
+    },
+    {
+        name: "左手指月 Ziyue Cai",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1mFRMkRt9CJqC2UspRBzvX062Ocb9P-4w"
+    },
+    {
+        name: "琶琶行 Yin Chen",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=12ago5R_MZEuU-lXQaw2W2fPKhj-n2ICT"
+    },
+    {
+        name: "琵琶怨 Weibiao Deng",
+        type: "modern",
+        image: "https://docs.google.com/uc?export=download&id=1D5EXScdcwUXjqO1Zl9YoQKdqErG7MHDu"
     }
 ];
 
